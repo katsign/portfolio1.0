@@ -13,7 +13,7 @@ Using only pre-existing Bootstrap 4 CSS components, I built out a very simple bu
 ## Responsiveness
 Because Bootstrap is designed with mobile and tablet devices in mind, using the built-in components made it much easier to design pages that scale with the browser window. I utilized the grid system, placing containers into areas with defined rows to space out my content on the page.
 
-Resizing the width of my browser window (992px, 768px, 400px) with Dev Tools ensured that my content looked the way I wanted it to on different screen sizes. I noticed that the smallest size on my phone looked different than the smallest size on a desktop and made changes accordingly. I sent my deployed link out to friends and family, having them test the pages on different broswers and devices.
+Resizing the width of my browser window (992px, 768px, 400px) with Dev Tools ensured that my content looked the way I wanted it to on different screen sizes. I noticed that the smallest size on my phone looked different than the smallest size on a desktop and made changes accordingly. I sent my deployed link out to friends and family, having them test the pages on different browsers and devices.
 
 I wanted to match the example images in my assignment folder while also adding a personal touch to my design. I enjoy clean spaces online that use pops of color sparingly and let the featured work speak for itself. The Bootstrap Card components helped me easily create scalable rows of content for my Portfolio page.
 
