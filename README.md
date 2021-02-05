@@ -9,7 +9,7 @@ Using Bootstrap 4 CSS components, I built out a very simple but responsive web d
 ### Link to Deployed Page:
 * https://katsign.github.io/portfolio1.0/
 
-![Code Snippet](./images/pic1.png)
+![Code Snippet](./assets/images/pic1.png)
 (Above: A featured code snippet from PAIR, using media queries to constrain images that were returned from different APIs with varying aspect ratios.)
 
 ## Credits
