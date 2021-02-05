@@ -11,6 +11,15 @@ body {
     background-color: linen;
 }
 
+#imgWrapper {
+    display: inline-block;
+}
+
+.journal {
+    margin: .25rem;
+    justify-content: center;
+}
+
 /* Btn Styles Blob */
 .btn-dark {
 background-color: thistle;
@@ -56,4 +65,11 @@ border-color: thistle;
     background-color: palevioletred;
     border-color: palevioletred!important;
     box-shadow: 0 0 0 0.2rem palevioletred!important;
+}
+
+@media (max-width: 656px) {
+    .journal {
+        width: 100%;
+        margin: .25rem;
+    }
 }
