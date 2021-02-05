@@ -4,8 +4,6 @@
 ## Description
 Using Bootstrap 4 CSS components, I built out a very simple but responsive web development portfolio site. The website consists of a single-scroll page featuring three main projects I have worked on.
 
-**Made with [Bootstrap 4.0](https://getbootstrap.com)**
-
 ### Link to Deployed Page:
 * https://katsign.github.io/portfolio1.0/
 
@@ -15,3 +13,4 @@ Using Bootstrap 4 CSS components, I built out a very simple but responsive web d
 ## Credits
 ### :wavy_dash: [Bootstrap 4.0](https://getbootstrap.com)
 ### :wavy_dash: [Materialize Icons](https://materializecss.com/icons.html)
+### :wavy_dash: [Carbon Code Images](https://carbon.now.sh/)
