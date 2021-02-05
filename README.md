@@ -6,7 +6,7 @@ Using Bootstrap 4 CSS components, I built out a very simple but responsive web d
 **Made with [Bootstrap v4.0](https://getbootstrap.com)**
 
 ### Link to Deployed Page:
-* https://katsign.github.io/responsive-portfolio/index.html
+* https://katsign.github.io/portfolio1.0/
 
 ## Responsiveness
 Because Bootstrap is designed with mobile and tablet devices in mind, using the built-in components made it much easier to design pages that scale with the browser window. I utilized the grid system, placing containers into areas with defined rows to space out my content on the page.
