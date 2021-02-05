@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kat R. Buchanan</title>
+    <title>digitalNative, digitalCreative</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel='icon' href='favicon.ico' type='image/x-icon'/>
 </head>
-<body>
-    <!--Navigation Bar Spans Top of Each Page-->
-    <header>
-    </header>
 
-    <!--Main container -->
+<body>
+
+    <!--Main Container -->
     <main class="container">
       <!-- Contains Heading + Bio Blurb-->
         <div class="row">
@@ -22,23 +21,30 @@
                 <img width="240" class="float-left mr-4 my-2 img-fluid rounded" src="images/self.jpg" alt="Self portrait of Kat R. Buchanan, 27 years old, caucasian brunette.">
                   <p class="lead mt-4"><strong>Meet</strong> | Kat Ruth Buchanan</p><p class="text-justify">Thanks for checking out my first web dev portfolio — I think I'm starting to get the hang of things. <br><br> Grinding in my full-stack bootcamp, Chrome tabs and VSCode editor until I can consider myself worthy of A Role As A Junior Developer, as I might tweet it. Really just a curious young millennial who fondly recalls  the old web and fiendishly longs for the new. So let's build it.
                 </p>
+                <hr>
             </div>
           </div>
+
+          <!--Featured Projects Heading-->
+          <section id="projects">
+            <h5 class="card-title"><i class="material-icons" style="font-size: 18px">tab</i> Featured Projects</h5>
+                <hr>
+          <!--Featured Projects Link to GitHub-->
           <div class="card-group">
             <div class="card">
               <img class="card-img" src="images/pic1.png" alt="Code Snippet from PAIR Recipe Finder Web App">
               <div class="card-body">
                 <h5 class="card-title">PAIR Culinary Curation</h5>
                 <p class="card-text">Pair is a dynamic and mobile-responsive web application that lets a user search for food and cocktail recipes from separate databases and curate the results in one place.</p>
-                <p class="card-text text-muted small float-right">View Repo on GitHub</p>
+                <a class="card-text text-muted small float-right jump">View Repo on GitHub</a>
               </div>
             </div>
             <div class="card">
               <img class="card-img" src="images/pic2.png" alt="Code Snippet from Weather Dashboard Web App">
               <div class="card-body">
                 <h5 class="card-title">Minimalist Weather Dashboard</h5>
-                <p class="card-text">A minimalist predictive weather dashboard using the OpenWeatherMap API, featuring dynamically updated HTML and CSS.</p>
-                <p class="card-text text-muted small float-right">View Repo on GitHub</p>
+                <p class="card-text">A minimalist predictive weather dashboard using the Open Weather Map API, featuring dynamically updated HTML and CSS.</p>
+                <a class="card-text text-muted small float-right jump">View Repo on GitHub</a>
               </div>
             </div>
             <div class="card">
@@ -46,8 +52,10 @@
               <div class="card-body">
                 <h5 class="card-title">No-Stress Day Planner</h5>
                 <p class="card-text">This simply-styled browser application uses jQuery to access the Moment.js library and manipulate the timeblocks of a virtual day planner.</p>
-                <p class="card-text text-muted small float-right">View Repo on GitHub</p>
+                <a class="card-text text-muted small float-right jump">View Repo on GitHub</a>
               </div>
+            </section>
+
             </div>
           </div>
     </main>
@@ -55,7 +63,7 @@
     <!--Footer Content-->
     <footer class="footer py-4">
       <div class="container">
-        <!--Thank You Message and Links-->
+        <!--Outro and Links-->
         <div class="jumbotron">
           <h1 class="display-4">That's it for now.</h1>
           <p class="lead">You've officially perused My Portfolio 1.0 — it's a work in progress, just like my JavaScript skills. I update my GitHub repositories and profile as I learn new skills and experiment with new frameworks.</p>
