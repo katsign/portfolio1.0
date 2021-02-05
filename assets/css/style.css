@@ -81,4 +81,9 @@ border-color: thistle;
     }
 }
 
-/* notes for .self query min 375 max 500 */
+@media (max-width: 420px) {
+    #self {
+        float: none;
+        width: 100%;
+    }
+}
