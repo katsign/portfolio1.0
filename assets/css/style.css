@@ -7,6 +7,11 @@ body {
     max-width: 720px;
 }
 
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
+
 a {
     color: #141414;
 }
