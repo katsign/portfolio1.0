@@ -1,94 +1,101 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background: rgb(254, 249, 245);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 249, 245, 1) 14%,
+    rgba(216, 191, 216, 0.5558653846153846) 36%,
+    rgba(250, 240, 230, 1) 93%
+  );
 }
 
 .container {
-    max-width: 720px;
+  max-width: 720px;
 }
 
-.material-icons{
-    display: inline-flex;
-    vertical-align: top;
+.material-icons {
+  display: inline-flex;
+  vertical-align: top;
 }
 
 a {
-    color: #141414;
+  color: #141414;
 }
 a:hover {
-    color: plum;
+  color: plum;
 }
 
 .jumbotron {
-    background-color: linen;
+  background-color: rgba(216, 191, 216, 0.5558653846153846) !important;
 }
 
 #imgWrapper {
-    display: inline-block;
+  display: inline-block;
 }
 
 .journal {
-    margin: .25rem;
-    justify-content: center;
+  margin: 0.25rem;
+  justify-content: center;
 }
 
 /* Btn Styles Blob */
 .btn-dark {
-background-color: thistle;
-border-color: thistle;
+  background-color: thistle;
+  border-color: thistle;
 }
 .btn-dark:hover {
-    background-color: plum;
-    border-color: plum;
+  background-color: plum;
+  border-color: plum;
 }
 .btn-dark:active,
 .btn-dark:focus {
-    background-color: plum;
-    border-color: plum!important;
-    box-shadow: 0 0 0 0.2rem plum!important;
+  background-color: plum;
+  border-color: plum !important;
+  box-shadow: 0 0 0 0.2rem plum !important;
 }
 .btn-secondary {
-    background-color: peachpuff;
-    border-color: peachpuff;
+  background-color: peachpuff;
+  border-color: peachpuff;
 }
 .btn-secondary:hover {
-    background-color: darksalmon;
-    border-color: darksalmon;
+  background-color: darksalmon;
+  border-color: darksalmon;
 }
 .btn-secondary:active,
 .btn-secondary:focus {
-    background-color: darksalmon;
-    border-color: darksalmon!important;
-    box-shadow: 0 0 0 0.2rem darksalmon!important;
+  background-color: darksalmon;
+  border-color: darksalmon !important;
+  box-shadow: 0 0 0 0.2rem darksalmon !important;
 }
 .btn-light {
-    color: white;
-    background-color: pink;
-    border-color: pink;
+  color: white;
+  background-color: pink;
+  border-color: pink;
 }
 .btn-light:hover {
-    color: white;
-    background-color: palevioletred;
-    border-color: palevioletred;
+  color: white;
+  background-color: palevioletred;
+  border-color: palevioletred;
 }
 .btn-light:active,
 .btn-light:focus {
-    color: white;
-    background-color: palevioletred;
-    border-color: palevioletred!important;
-    box-shadow: 0 0 0 0.2rem palevioletred!important;
+  color: white;
+  background-color: palevioletred;
+  border-color: palevioletred !important;
+  box-shadow: 0 0 0 0.2rem palevioletred !important;
 }
 
 @media (max-width: 656px) {
-    .journal {
-        width: 100%;
-        margin: .25rem;
-    }
+  .journal {
+    width: 100%;
+    margin: 0.25rem;
+  }
 }
 
 @media (max-width: 420px) {
-    #self {
-        float: none;
-        width: 100%;
-    }
+  #self {
+    float: none;
+    width: 100%;
+  }
 }
