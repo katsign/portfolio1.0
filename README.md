@@ -1,16 +1,22 @@
 ![Favicon](./favicon.ico)
-# Meet Kat Ruth | digitalNative, digitalCreative :cherry_blossom:
+# Meet Kat Ruth | digitalNative, digitalCreative :cherry_blossom: :star2:
+![GitHub license](https://img.shields.io/badge/License-MIT-orange)
 
-## Description
-Using Bootstrap 4 CSS components, I built out a very simple but responsive web development portfolio site. The website consists of a single-scroll page featuring three main projects I have worked on.
+## *Description*
+Using Bootstrap 4 CSS components, I built out a very simple but responsive web development portfolio site. The website consists of a single-scroll page featuring three main projects I've worked on.
 
-### Link to Deployed Page:
+These projects rotate out as I complete new ones in my fullstack bootcamp.
+
+### *Link to Deployed Page:*
 * https://katsign.github.io/portfolio1.0/
 
-![Code Snippet](./assets/images/pic1.png)
-(Above: A featured code snippet from PAIR, using media queries to constrain images that were returned from different APIs with varying aspect ratios.)
+## *Screenshots*
+![Site Demo](./assets/images/ss_brgr.png)
+![Site Demo](./assets/images/ss_dev.png)
+![Site Demo](./assets/images/ss_pair.png)
 
-## Credits
-### :wavy_dash: [Bootstrap 4.0](https://getbootstrap.com)
-### :wavy_dash: [Materialize Icons](https://materializecss.com/icons.html)
-### :wavy_dash: [Carbon Code Images](https://carbon.now.sh/)
+## *Questions?*
+- My Profile: [katsign](https://github.com/katsign)
+
+---
+This project is MIT licensed. &copy; 2021
