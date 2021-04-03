@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background: rgb(254, 249, 245);
   background: linear-gradient(
@@ -40,50 +40,112 @@ a:hover {
 }
 
 /* Btn Styles Blob */
-.btn-dark {
+.btn-primary {
+  color: white;
   background-color: thistle;
   border-color: thistle;
 }
-.btn-dark:hover {
+.btn-primary:hover {
+  color: white;
   background-color: plum;
   border-color: plum;
 }
-.btn-dark:active,
-.btn-dark:focus {
+.btn-primary:focus,
+.btn-primary.focus {
+  color: white;
   background-color: plum;
-  border-color: plum !important;
-  box-shadow: 0 0 0 0.2rem plum !important;
+  border-color: plum;
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
 }
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: white;
+  background-color: thistle;
+  border-color: thistle;
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: plum;
+  border-color: plum;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+}
+
 .btn-secondary {
-  background-color: peachpuff;
-  border-color: peachpuff;
-}
-.btn-secondary:hover {
-  background-color: darksalmon;
-  border-color: darksalmon;
-}
-.btn-secondary:active,
-.btn-secondary:focus {
-  background-color: darksalmon;
-  border-color: darksalmon !important;
-  box-shadow: 0 0 0 0.2rem darksalmon !important;
-}
-.btn-light {
   color: white;
   background-color: pink;
   border-color: pink;
 }
-.btn-light:hover {
+.btn-secondary:hover {
   color: white;
   background-color: palevioletred;
   border-color: palevioletred;
 }
-.btn-light:active,
-.btn-light:focus {
+.btn-secondary:focus,
+.btn-secondary.focus {
   color: white;
   background-color: palevioletred;
-  border-color: palevioletred !important;
-  box-shadow: 0 0 0 0.2rem palevioletred !important;
+  border-color: palevioletred;
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+}
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  color: white;
+  background-color: pink;
+  border-color: pink;
+}
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  color: white;
+  background-color: palevioletred;
+  border-color: palevioletred;
+}
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+}
+
+.btn-light {
+  color: white;
+  background-color: peachpuff;
+  border-color: peachpuff;
+}
+.btn-light:hover {
+  color: white;
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+}
+.btn-light:focus,
+.btn-light.focus {
+  color: white;
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+}
+.btn-light.disabled,
+.btn-light:disabled {
+  color: white;
+  background-color: peachpuff;
+  border-color: peachpuff;
+}
+.btn-light:not(:disabled):not(.disabled):active,
+.btn-light:not(:disabled):not(.disabled).active,
+.show > .btn-light.dropdown-toggle {
+  color: white;
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+}
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.btn-light:not(:disabled):not(.disabled).active:focus,
+.show > .btn-light.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
 }
 
 @media (max-width: 656px) {
