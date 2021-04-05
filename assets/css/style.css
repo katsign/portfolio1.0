@@ -40,6 +40,11 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.display-4 {
+  font-size: 50px;
+  text-align: center;
+}
+
 #imgWrapper {
   display: inline-block;
 }
@@ -163,14 +168,25 @@ a:hover {
     width: 100%;
     margin: 0.25rem;
   }
+  .display-4 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 580px) {
+  #self {
+    width:100%;
+  }
+  #bio {
+    text-align: center;
+  }
+  .display-4 {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 420px) {
-  #self {
-    float: none;
-    width: 100%;
-  }
   .display-4 {
-    font-size: 28px;
+    font-size: 30px;
   }
 }
