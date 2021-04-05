@@ -36,6 +36,10 @@ a:hover {
   background-color: rgba(216, 191, 216, 0.5558653846153846) !important;
 }
 
+.d-flex {
+  flex-wrap: wrap;
+}
+
 #imgWrapper {
   display: inline-block;
 }
