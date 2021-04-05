@@ -16,7 +16,13 @@ body {
 
 .material-icons {
   display: inline-flex;
-  vertical-align: top;
+  vertical-align: text-bottom;
+}
+
+.badge-light {
+  background-color: lavenderblush;
+  border: 2px solid thistle;
+  margin: 4px;
 }
 
 a {
