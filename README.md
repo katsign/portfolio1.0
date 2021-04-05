@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Favicon](./favicon.ico)
-# Meet Kat Ruth | digitalNative, digitalCreative 🎇💭
+# Meet Kat Ruth | digitalNative, digitalCreative 💫💭
 ![GitHub license](https://img.shields.io/badge/License-MIT-orange) ![Email Badge](https://img.shields.io/badge/Email%20Me-mailtokatsign%40gmail.com-d8bfd8)
 </div>
 
