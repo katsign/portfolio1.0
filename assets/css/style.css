@@ -129,37 +129,73 @@ a:hover {
 
 .btn-light {
   color: white;
-  background-color: peachpuff;
-  border-color: peachpuff;
+  background-color: moccasin;
+  border-color: moccasin;
 }
 .btn-light:hover {
   color: white;
-  background-color: lightsalmon;
-  border-color: lightsalmon;
+  background-color: peachpuff;
+  border-color: peachpuff;
 }
 .btn-light:focus,
 .btn-light.focus {
   color: white;
-  background-color: lightsalmon;
-  border-color: lightsalmon;
+  background-color: peachpuff;
+  border-color: peachpuff;
   box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
 }
 .btn-light.disabled,
 .btn-light:disabled {
   color: white;
-  background-color: peachpuff;
-  border-color: peachpuff;
+  background-color: moccasin;
+  border-color: moccasin;
 }
 .btn-light:not(:disabled):not(.disabled):active,
 .btn-light:not(:disabled):not(.disabled).active,
 .show > .btn-light.dropdown-toggle {
   color: white;
-  background-color: lightsalmon;
-  border-color: lightsalmon;
+  background-color: peachpuff;
+  border-color: peachpuff;
 }
 .btn-light:not(:disabled):not(.disabled):active:focus,
 .btn-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-light.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+}
+
+.btn-dark {
+  color: white;
+  background-color: thistle;
+  border-color: thistle;
+}
+.btn-dark:hover {
+  color: white;
+  background-color: plum;
+  border-color: plum;
+}
+.btn-dark:focus,
+.btn-dark.focus {
+  color: white;
+  background-color: plum;
+  border-color: plum;
+  box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
+}
+.btn-dark.disabled,
+.btn-dark:disabled {
+  color: white;
+  background-color: thistle;
+  border-color: thistle;
+}
+.btn-dark:not(:disabled):not(.disabled):active,
+.btn-dark:not(:disabled):not(.disabled).active,
+.show > .btn-dark.dropdown-toggle {
+  color: white;
+  background-color: plum;
+  border-color: plum;
+}
+.btn-dark:not(:disabled):not(.disabled):active:focus,
+.btn-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
 }
 
