@@ -1,183 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kat Ruth Buchanan" />
+    <meta
+      name="description"
+      content="Hey, I'm Kat. A digitally-native digital creative. This site houses my front-end web development portfolio."
+    />
+    <title>digitalNative, digitalCreative</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-  <title>digitalNative, digitalCreative</title>
-  <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-  <link rel="preconnect"
-        href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
-        rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
-  <link rel="stylesheet"
-        href="./assets/css/style.css">
-  <link rel='icon'
-        href='favicon.ico'
-        type='image/x-icon' />
-</head>
-
-<body>
-
-  <!--Main Container -->
-  <main class="container">
-    <!-- Contains Heading + Bio Blurb-->
-    <div class="row">
-      <div class="col mt-4" id="bio">
-        <h1 class="display-4" id="heading">You found me. <strong>I'm so glad.</strong></h1>
-        <hr>
-        <img width="250"
-             class="float-left mr-4 my-2 rounded"
-             src="./assets/images/self.jpg"
-             id="self"
-             alt="Self portrait of Kat R. Buchanan, 27 years old, caucasian brunette.">
-        <div class="my-2"
-             id="bioWrapper">
-          <p class="lead mt-4"><strong>Meet</strong> Kat Ruth Buchanan <span class="material-icons" style="font-size: 20px;">
-            arrow_downward
-            </span></p>
-             <div class="badge badge-light p-2 mb-4">Front-End Web Designer, emphasis on UX/UI</div>
-             <p>Hey, I'm Kat. A digitally-native digital creative.</p>
-             <p class="text-justify">I've worked for a decade in different fields, soaking up experiences — from stomping grapes during the California harvest to interviewing indie musicians backstage; from designing a homestyle Italian cookbook to documenting life in the southern Brazilian jungle. I got my start in journalism and taught myself the real elements of style from there. Coming from this rich and varied background, I'm stoked to see what I can do as a fresh eye in tech. I'm really just a curious young millennial who fondly recalls the old web and fiendishly longs for the new. <strong>So let's build it.</strong></p>
+  <body>
+    <!--Main Container-->
+    <main class="container">
+      <!--Heading + Bio Blurb-->
+      <div class="row">
+        <div class="col mt-4" id="bio">
+          <h1 class="display-4" id="heading">
+            You found me. <span style="font-weight: 400">I'm so glad.</span>
+          </h1>
+          <hr />
+          <img
+            width="250"
+            class="float-left mr-4 my-2 rounded"
+            src="./assets/images/self.jpg"
+            id="self"
+            alt="Self portrait of Kat R. Buchanan, 27 years old, caucasian brunette."
+          />
+          <div class="my-2" id="bioWrapper">
+            <p class="lead mt-4">
+              <span style="font-weight: 400">Meet</span> Kat Ruth Buchanan
+              <span class="material-icons" style="font-size: 20px">
+                arrow_downward
+              </span>
+            </p>
+            <div class="badge badge-light p-2 mb-4">
+              Front-End Web Designer, emphasis on UX/UI
+            </div>
+            <p>Hey, I'm Kat. A digitally-native digital creative.</p>
+            <p class="text-justify">
+              I've worked for a decade in different fields, soaking up
+              experiences — from stomping grapes during the California harvest
+              to interviewing indie musicians backstage; from designing a
+              homestyle Italian cookbook to documenting life in the southern
+              Brazilian jungle. I got my start in journalism and taught myself
+              the real elements of style from there. Coming from this rich and
+              varied background, I'm stoked to see what I can do as a fresh eye
+              in tech. I'm really just a curious young millennial who fondly
+              recalls the old web and fiendishly longs for the new.
+              <span style="font-weight: 400">So let's build it.</span>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col d-flex align-items-center justify-content-center">
-        <div class="badge badge-light p-2">HTML5 + CSS3</div> <div class="badge badge-light p-2">SCSS</div> <div class="badge badge-light p-2">Figma + Adobe CC</div> <div class="badge badge-light p-2">JavaScript</div> <div class="badge badge-light p-2">Node + Express</div> <div class="badge badge-light p-2">MySQL + NoSQL</div> <div class="badge badge-light p-2">React.js</div>
+      <!--Skills + Action Btns-->
+      <div class="row">
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="badge badge-light p-2">HTML5 + CSS3</div>
+          <div class="badge badge-light p-2">SCSS</div>
+          <div class="badge badge-light p-2">Figma + Adobe CC</div>
+          <div class="badge badge-light p-2">JavaScript</div>
+          <div class="badge badge-light p-2">Node + Express</div>
+          <div class="badge badge-light p-2">MySQL + NoSQL</div>
+          <div class="badge badge-light p-2">React.js</div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col d-flex align-items-center justify-content-center mt-4">
-        <a class="btn btn-lg btn-primary" style="width:50%; border-top-right-radius: 0px; border-bottom-right-radius: 0px;" href="mailto:mailtokatsign@gmail.com?subject=Development%20Inquiry">Email Me</a>
-          <a type="application/pdf" class="btn btn-lg btn-light" style="width:50%; border-top-left-radius: 0px; border-bottom-left-radius: 0px;" target="_blank" href="assets/KRB_Resume_Spring21.pdf">View Resume</a>
+      <div class="row">
+        <div class="col d-flex align-items-center justify-content-center mt-4">
+          <a
+            class="btn btn-lg btn-primary"
+            style="
+              width: 50%;
+              border-top-right-radius: 0px;
+              border-bottom-right-radius: 0px;
+            "
+            href="mailto:mailtokatsign@gmail.com?subject=Development%20Inquiry"
+            >Email Me</a
+          >
+          <a
+            type="application/pdf"
+            class="btn btn-lg btn-light"
+            style="
+              width: 50%;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+            "
+            target="_blank"
+            href="assets/KRB_Resume_Spring21.pdf"
+            >View Resume</a
+          >
         </div>
       </div>
 
-    <!--Featured Projects Heading-->
-    <section id="projects">
-      <hr>
-      <h5 class="card-title"><i class="material-icons"
-           style="font-size: 24px">tab</i> Featured Projects</h5>
-      <hr>
-      <!--Featured Projects Link to GitHub-->
-      <div class="card-group py-1">
-        <div class="card">
-        <a href="https://devlr.herokuapp.com/"
-        target="_blank">
-       <img class="card-img"
-            src="./assets/images/ss_dev.png"
-            alt="Screenshot of devlr Homepage">
-       <div class="card-body">
-         <h5 class="card-title">devlr Developer Network</h5>
-     </a>
-     <p class="card-text">Create a customized profile to display your development background, pinned projects and status updates to share with other developers worldwide.</p>
-     <a href="https://github.com/liztownd/devlr"
-        target="_blank"
-        class="card-text text-muted small float-right jump">View Repo on GitHub</a>
-      </div>
-      </div>
-      <div class="card">
-        <a href="https://katsign-gotta-eat.herokuapp.com/"
-        target="_blank">
-       <img class="card-img"
-            src="./assets/images/ss_brgr.png"
-            href=""
-            alt="Screenshot of Express Burger Log Homepage">
-       <div class="card-body">
-         <h5 class="card-title">Express Burger Log</h5>
-     </a>
-     <p class="card-text">This simple full-stack application uses Node.js, Express, a MySQL database and the templating engine Handlebars to display logs of newly-ordered and devoured burgers.</p>
-     <a href="https://github.com/katsign/gotta-eat"
-        target="_blank"
-        class="card-text text-muted small float-right jump">View Repo on GitHub</a>
-      </div>
-    </div>
-      <div class="card">
-        <a href="https://brandyquinlan.github.io/PAIR/"
-        target="_blank">
-       <img class="card-img"
-            src="./assets/images/ss_pair.png"
-            href=""
-            alt="Screenshot of PAIR Homepage">
-       <div class="card-body">
-         <h5 class="card-title">PAIR Culinary Curation</h5>
-     </a>
-     <p class="card-text">Pair is a dynamic and mobile-responsive web application that lets a user search for
-       food and cocktail recipes from separate databases and curate the results in one place.</p>
-     <a href="https://github.com/brandyquinlan/PAIR"
-        target="_blank"
-        class="card-text text-muted small float-right jump">View Repo on GitHub</a>
-      </div>
-    </section>
+      <!--Featured Projects Heading-->
+      <section id="projects">
+        <hr />
+        <h5 class="card-title">
+          <i class="material-icons" style="font-size: 24px">tab</i> Featured
+          Projects
+        </h5>
+        <hr />
+        <!--Featured Projects Link to GitHub-->
+        <div class="card-group py-1">
+          <div class="card">
+            <a href="https://devlr.herokuapp.com/" target="_blank">
+            <img
+              class="card-img"
+              src="./assets/images/ss_dev.png"
+              alt="Screenshot of devlr Homepage"
+            />
+            <div class="card-body">
+              <h5 class="card-title">devlr Developer Network</h5>
+            </a>
+              <p class="card-text">
+                Create a customized profile to display your development
+                background, pinned projects and status updates to share with
+                other developers worldwide.
+              </p>
+              <a
+                href="https://github.com/liztownd/devlr"
+                rel="noreferrer"
+                target="_blank"
+                class="card-text text-muted small float-right jump"
+                >View Repo on GitHub</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <a
+              href="https://katsign-gotta-eat.herokuapp.com/"
+              target="_blank"
+            >
+            <img
+              class="card-img"
+              src="./assets/images/ss_brgr.png"
+              href=""
+              alt="Screenshot of Express Burger Log Homepage"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Express Burger Log</h5>
+            </a>
+              <p class="card-text">
+                This simple full-stack application uses Node.js, Express, a
+                MySQL database and the templating engine Handlebars to display
+                logs of newly-ordered and devoured burgers.
+              </p>
+              <a
+                href="https://github.com/katsign/gotta-eat"
+                rel="noreferrer"
+                target="_blank"
+                class="card-text text-muted small float-right jump"
+                >View Repo on GitHub</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://brandyquinlan.github.io/PAIR/" target="_blank">
+            <img
+              class="card-img"
+              src="./assets/images/ss_pair.png"
+              href=""
+              alt="Screenshot of PAIR Homepage"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PAIR Culinary Curation</h5>
+            </a>
+              <p class="card-text">
+                Pair is a dynamic and mobile-responsive web application that
+                lets a user search for food and cocktail recipes from separate
+                databases and curate the results in one place.
+              </p>
+              <a
+                href="https://github.com/brandyquinlan/PAIR"
+                rel="noreferrer"
+                target="_blank"
+                class="card-text text-muted small float-right jump"
+                >View Repo on GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <!--Visual Journal-->
-    <section id="visual">
-      <hr>
-      <h5 class="card-title"><i class="material-icons"
-           style="font-size: 24px">image</i> Visual Journal | <span style="font-weight: 100">Spring 2021</span></h5>
-      <hr>
-      <div id="imgWrapper"
-           align="center">
-        <img width="260"
-             class="journal rounded"
-             src="./assets/images/journal3.jpg"
-             alt="rotating recent camera roll photo">
-        <img width="300"
-             class="journal rounded"
-             src="./assets/images/journal6.jpg"
-             alt="rotating recent camera roll photo">
-        <img width="260"
-             class="journal rounded"
-             src="./assets/images/journal1.jpg"
-             alt="rotating recent camera roll photo">
-        <img width="300"
-             class="journal rounded"
-             src="./assets/images/journal4.jpg"
-             alt="rotating recent camera roll photo">
-      </div>
-    </section>
+      <!--Visual Journal-->
+      <section id="visual">
+        <hr />
+        <h5 class="card-title">
+          <i class="material-icons" style="font-size: 24px">image</i> Visual
+          Journal | <span style="font-weight: 100">Spring 2021</span>
+        </h5>
+        <hr />
+        <div id="imgWrapper" align="center">
+          <img
+            width="260"
+            class="journal rounded"
+            src="./assets/images/journal3.jpg"
+            alt="rotating recent camera roll photo"
+          />
+          <img
+            width="300"
+            class="journal rounded"
+            src="./assets/images/journal6.jpg"
+            alt="rotating recent camera roll photo"
+          />
+          <img
+            width="260"
+            class="journal rounded"
+            src="./assets/images/journal1.jpg"
+            alt="rotating recent camera roll photo"
+          />
+          <img
+            width="300"
+            class="journal rounded"
+            src="./assets/images/journal4.jpg"
+            alt="rotating recent camera roll photo"
+          />
+        </div>
+      </section>
+    </main>
 
-    </div>
-    </div>
-  </main>
-
-  <!--Footer Content-->
-  <footer class="footer">
-    <div class="container">
-      <!--Outro and Links-->
-      <hr>
-      <h5 class="card-title"><i class="material-icons"
-           style="font-size: 24px">forum</i> The Outro | <span style="font-weight: 100">Social Links</span></h5>
-      <hr>
-      <div class="jumbotron">
-        <h2>That's it for now.</h2>
-        <p class="lead">You've officially perused My Portfolio 1.0 — it's a work in progress, just like my JavaScript
-          skills. I update my GitHub repositories and profile as I learn new things and experiment with new frameworks.
+    <!--Footer Content-->
+    <footer class="footer">
+      <div class="container">
+        <!--Outro and Links-->
+        <hr />
+        <h5 class="card-title">
+          <i class="material-icons" style="font-size: 24px">forum</i> The Outro
+          | <span style="font-weight: 100">Social Links</span>
+        </h5>
+        <hr />
+        <div class="jumbotron">
+          <h2>That's it for now.</h2>
+          <p class="lead">
+            You've officially perused My Portfolio 1.0 — it's a work in
+            progress, just like my JavaScript skills. I update my GitHub
+            repositories and profile as I learn new things and experiment with
+            new frameworks.
+          </p>
+          <hr class="my-4" />
+          <p class="lead">You can catch me posting on:</p>
+          <a
+            class="btn btn-primary"
+            href="https://github.com/katsign"
+            rel="noreferrer"
+            target="_blank"
+            role="button"
+            >GitHub</a
+          >
+          <a
+            class="btn btn-secondary"
+            href="https://vsco.co/neutcrew/gallery"
+            rel="noreferrer"
+            target="_blank"
+            role="button"
+            >VSCO</a
+          >
+          <a
+            class="btn btn-light"
+            href="https://twitter.com/neutcrew"
+            rel="noreferrer"
+            target="_blank"
+            role="button"
+            >Twitter</a
+          >
+        </div>
+        <p class="text-center text-muted small">
+          KRB <i class="material-icons" style="font-size: 18px">mood</i> 2021
         </p>
-        <hr class="my-4">
-        <p class="lead">You can catch me posting on: </p><a class="btn btn-primary"
-           href="https://github.com/katsign"
-           target="_blank"
-           role="button">GitHub</a> <a class="btn btn-secondary"
-           href="https://vsco.co/neutcrew/gallery"
-           target="_blank"
-           role="button">VSCO</a> <a class="btn btn-light"
-           href="https://twitter.com/neutcrew"
-           target="_blank"
-           role="button">Twitter</a>
       </div>
-      <p class="text-center text-muted small">KRB <i class="material-icons"
-           style="font-size: 18px">mood</i> 2021</p>
-    </div>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
