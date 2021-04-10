@@ -165,33 +165,33 @@ a:hover {
 
 .btn-dark {
   color: white;
-  background-color: thistle;
-  border-color: thistle;
+  background-color: #f1c3b1;
+  border-color: #f1c3b1;
 }
 .btn-dark:hover {
   color: white;
-  background-color: plum;
-  border-color: plum;
+  background-color: darksalmon;
+  border-color: darksalmon;
 }
 .btn-dark:focus,
 .btn-dark.focus {
   color: white;
-  background-color: plum;
-  border-color: plum;
+  background-color: darksalmon;
+  border-color: darksalmon;
   box-shadow: 0 0 0 0.2rem rgba(189, 168, 190, 0.5);
 }
 .btn-dark.disabled,
 .btn-dark:disabled {
   color: white;
-  background-color: thistle;
-  border-color: thistle;
+  background-color: #f1c3b1;
+  border-color: #f1c3b1;
 }
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
   color: white;
-  background-color: plum;
-  border-color: plum;
+  background-color: darksalmon;
+  border-color: darksalmon;
 }
 .btn-dark:not(:disabled):not(.disabled):active:focus,
 .btn-dark:not(:disabled):not(.disabled).active:focus,
