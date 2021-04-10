@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Favicon](./favicon.ico)
-# Meet Kat Ruth | digitalNative, digitalCreative 💫💭
+# Meet Kat Ruth | digitalNative, digitalCreative 💫
 ![GitHub license](https://img.shields.io/badge/License-MIT-orange) ![Email Badge](https://img.shields.io/badge/Email%20Me-mailtokatsign%40gmail.com-d8bfd8)
 </div>
 
@@ -16,15 +16,19 @@ These projects rotate out as I complete new ones in my full-stack bootcamp.
 
 ## *Screenshots*
 
-[devlr Developer Network](https://devlr.herokuapp.com/)           |  [PAIR Culinary Curation](https://brandyquinlan.github.io/PAIR/)
+[Portfolio Preview](https://katsign.github.io/portfolio1.0/)           |  [devlr Developer Network](https://devlr.herokuapp.com/)
 :-------------------------:|:-------------------------:
-![Site Demo](./assets/images/ss_dev.png)  |  ![Site Demo](./assets/images/ss_pair.png)
+![Site Demo](./assets/images/ss_folio.PNG)  |  ![Site Demo](./assets/images/ss_dev.png)
+
+[Express Burger Log](https://katsign-gotta-eat.herokuapp.com/)           |   [PAIR Culinary Curation](https://brandyquinlan.github.io/PAIR/)
+:-------------------------:|:-------------------------:
+![Site Demo](./assets/images/ss_brgr.png)  |  ![Site Demo](./assets/images/ss_pair.png)
 
 
-![Site Demo](./assets/images/ss_brgr.png)
 
 
-## *Questions?*
+
+## *Contact*
 🔗 Links in Bio @[katsign](https://github.com/katsign)
 
 ---
